@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}
+
+.title{
+    margin: 0 5vh 0 5vh;
+}
+
+.home{
+    margin: 0 2vh 0 5vh;
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+}
+
+main{
+    height: 93vh;
+
+
+}
+
+main {
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
