@@ -2,10 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+body{
+    background-color: black;
+    color: rgb(255, 255, 255);
 }
 
 nav{
-    border: 2px solid;
+    border: 2px solid #bf0cdb;
     display: flex;
     align-items: center;
     height: 7vh;
@@ -27,14 +34,14 @@ nav{
 
 main{
     height: 93vh;
-
-
 }
 
-main {
-    font-size: 20px;
-    white-space: nowrap;
-    overflow: hidden;
-}
+@keyframes blink{
+    from{
+        border-right-color: #bf0cdb;
+    }
+    to{
 
+    }
+}
 
